@@ -3,7 +3,7 @@
 using namespace std;
 
 int main() {
-  int size = 25;
+  const int size = 25;
   int max = -1;
   int arr[size];
   for (int i = 0; i < size; ++i) {
